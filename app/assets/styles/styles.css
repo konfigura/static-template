@@ -1,11 +1,9 @@
+/* Import of CSS Reset */
 @import 'normalize.css';
 
-body {
-  color: orange;
-}
-
-$testVar: #2f5572;
-
-h1 {
-  color: $testVar;
-}
+/* Import of Base Styles */
+@import './base/_global.css';
+@import './base/_fonts.css';
+@import './base/_variables.css';
+@import './base/_mixins.css';
+/* Import of Section-Related Styles */

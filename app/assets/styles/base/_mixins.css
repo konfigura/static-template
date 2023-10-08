@@ -1,0 +1,5 @@
+@define-mixin max530px {
+  @media (max-width: 530px) {
+    @mixin-content;
+  }
+}
